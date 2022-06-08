@@ -1,16 +1,19 @@
 {
-  "name": "reactor",
+  "name": "confusion",
   "version": "1.0.0",
-  "description": "Sandbox for doing my react application",
-  "main": "server.js",
+  "description": "This is a website for Ristorante Con Fusion",
+  "main": "index.html",
   "scripts": {
+    "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "lite": "lite-server"
   },
-  "author": "Temirlan Ibragimov",
+  "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  },
   "dependencies": {
-    "bootstrap": "^5.2.0-beta1",
-    "express": "^4.18.1"
+    "bootstrap": "^5.2.0-beta1"
   }
 }
