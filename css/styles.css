@@ -47,3 +47,22 @@ body{
     border-bottom: 1px solid #ddd;
     padding: 10px;
 }
+
+.btn-block{
+    padding: 10px 5px;
+}
+
+.carousel{
+    background: #512da8;
+}
+
+.carousel-item {
+    height: 300px;
+}
+
+.carousel-item img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 300px;
+}
